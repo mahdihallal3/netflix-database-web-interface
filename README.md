@@ -68,7 +68,7 @@ To set up and run the project locally, you need the following tools:
 
 ---
 
-##Limitations and Future Work
+## Limitations and Future Work
 
 - **Static Data**: The data is not dynamically updated, and new entries will require manual updates.
 - **Future Improvements**: Integrating web scraping to dynamically fetch new data and possibly expanding to other streaming services (e.g., Hulu, Amazon Prime).
