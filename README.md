@@ -46,25 +46,25 @@ To set up and run the project locally, you need the following tools:
    cd netflix-database
 
 2. **Set Up Database**:
-  . Open phpMyAdmin by navigating to http://localhost/phpmyadmin.
-  . Create a new database, e.g., netflix_db.
-  . Import the provided CSV files located in the data folder into phpMyAdmin:
-  . Ensure you check "First row contains column names" when importing.
-  . Set the primary keys and foreign keys as described in the project's schema.
+   - Open phpMyAdmin by navigating to http://localhost/phpmyadmin.
+   - Create a new database, e.g., netflix_db.
+   - Import the provided CSV files located in the data folder into phpMyAdmin:
+   - Ensure you check "First row contains column names" when importing.
+   - Set the primary keys and foreign keys as described in the project's schema.
 
 3. **Configure Database Connection**:
-   . Open the "DataInfo.php" file in the "include" folder
-   . Setup your DB credentials accordingly, like:
-       $db_host = "localhost";
-       $db_user = "root";
-       $db_pass = "";  // Add your password if applicable
-       $db_name = "netflix_db";
+   - Open the "DataInfo.php" file in the "include" folder
+   - Setup your DB credentials accordingly, like:
+        - $db_host = "localhost";
+        - $db_user = "root";
+        - $db_pass = "";  // Add your password if applicable
+        - $db_name = "netflix_db";
 
 4. **Run the Website**:
-   . Start XAMPP and ensure Apache and MySQL services are running
-   . Move the project folder to the htdocs directory in your XAMPP installation (or equivalent directory for your server)
-   . Open a browser and go to http://localhost/netflix-database ("netflix-database" is to be replaced by whatever name you choose for the project folder you place in htdocs)
-   . VERY IMPORTANT: Click on OPEN_ME.php for the web interface to appear, it will be in a list of folders listed on a white page once you put the link in the browser.
+   - Start XAMPP and ensure Apache and MySQL services are running
+   - Move the project folder to the htdocs directory in your XAMPP installation (or equivalent directory for your server)
+   - Open a browser and go to http://localhost/netflix-database ("netflix-database" is to be replaced by whatever name you choose for the project folder you place in htdocs)
+   - VERY IMPORTANT: Click on OPEN_ME.php for the web interface to appear, it will be in a list of folders listed on a white page once you put the link in the browser.
 
 ---
 
